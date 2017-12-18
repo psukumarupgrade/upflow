@@ -1,0 +1,1 @@
+select * from invmgt.loan_holding limit 1;
