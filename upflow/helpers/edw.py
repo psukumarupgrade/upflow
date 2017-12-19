@@ -13,7 +13,7 @@ class EDW(object):
         return 'prgedw'
 
     @staticmethod
-    def get_s3_stage_uri(path, bucket=None, airflow_key="report_s3_access_key"):
+    def get_s3_stage_uri(path, bucket=None, airflow_key="report_s3_access_token"):
         """
         returns smart_open compatible s3 uri from key
         :param bucket: bucket. If not specified default_bucket in the airflow key will be used.
